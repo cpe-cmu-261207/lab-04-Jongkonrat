@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="http://kit.fontawesome.com/29ee0bc57e.js" crossorigin="anonymous">
-    </script>
-    <title>Document</title>
-
-
-            <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-</head>
-<body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
     <header>
-        <h1> My todo lists</h1>
-        <input type="text" id="myInput" placeholder="Things to be done...">
-        <span class="addBtn" id="add_button">Add</span>
+      <h1>My Todo List</h1>
+      <form>
+        <input type="text" class="todo-input" placeholder="Things to be done..."/>
+        <button class="todo-button" type="submit">
+          <i class="fas fa-plus-square"></i>
+        </button>
+      </form>
     </header>
-    <ul id="myUL">
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
 
-    </ul>
-    <script src="script.js"></script>
-    
-</body>
+    <script src="script3.js"></script>
+  </body>
 </html>
