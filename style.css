@@ -23,7 +23,6 @@
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    margin-top: 2.5rem;
   }
 
 form input, form button {
@@ -45,7 +44,7 @@ form button {
     color: white;
   }
   .todo-container {
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
   }
